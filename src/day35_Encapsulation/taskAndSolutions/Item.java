@@ -23,18 +23,22 @@ private int quantity;
         }
 
 
+        String specialChars = ""; // to get all special chars other than space
+
         for (char each : name.toCharArray()) {
-
-            if (!Character.isLetterOrDigit(each) && (each != ' ')) {
-
-                System.err.println("Invalid name: " + name);
-                System.exit(1);
+            if(!Character.isLetterOrDigit(each) && each != ' '){  // getting all special character except for space
+                specialChars += each;
             }
-            if (!Character.isLetter(each)) ;
-            System.err.println("Invalid name: " + name);
+        }
+
+        if(specialChars.length() > 0){ // if contains special characters other than space
+            System.err.println("Invalid Name: "+name);
             System.exit(1);
+        }
 
-
+        if(!Character.isLetter(name.charAt(0))){ // if name does not start with letter
+            System.err.println("Invalid Name: "+name);
+            System.exit(1);
         }
 
         this.name = name;
@@ -45,6 +49,10 @@ private int quantity;
     }
 
     public void setUnitPrice(double unitPrice) {
+        if(unitPrice<0){
+            System.out.println("unit price can not be negative or zero");
+            System.exit(1);
+        }
         this.unitPrice = unitPrice;
     }
 
@@ -53,7 +61,24 @@ private int quantity;
     }
 
     public void setQuantity(int quantity) {
+
+        if (name.equalsIgnoreCase("toilet paper")) {
+            this.quantity = 1;
+        }
         this.quantity = quantity;
+    }
+
+    public double calcCost(){
+        return unitPrice * quantity;
+    }
+
+    public String toString() {
+        return "Item{" +
+                "name='" + name + '\'' +
+                ", unitPrice=" + unitPrice +
+                ", quantity= $" + quantity +
+                ", total price= $" + quantity +
+                '}';
     }
 }
 /*
