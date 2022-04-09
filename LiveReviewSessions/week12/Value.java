@@ -17,11 +17,11 @@ a method 'getVal' that returns an integer value as follows: if setVal has ever b
     public Value(){} // no parameter
     public Value(int param){ // single parameter
         this.param=param;
-        calledConstructor=true;
+        calledConstructor=true;//shows that constructor is used or not in ValueTest Class
     }
     public void setValue(int param){ // one parameter method and is void
         this.param=param;
-        calledMethod =  true;
+        calledMethod =  true;//shows that setValue is used or not in ValueTest Class
     }
     public boolean wasModified(){
         return calledMethod;
