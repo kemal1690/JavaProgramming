@@ -1,4 +1,4 @@
-package day33_Statics.day37_Inheritance.phoneTask;
+package day37_Inheritance.phoneTask;
 
 public class Phone {// parent class: only contains the common features of all the subclass
 
