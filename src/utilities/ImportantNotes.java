@@ -308,9 +308,20 @@ public class ImportantNotes {
         }
 
  */
+        System.out.println("---------------converting arraylist to an array---------------------");
 
 
+        String[] countries = {"Japan", "Korea", "United States", "Turkey", "United Kingdom", "Canada", };
 
+        // converting array to arraylist:
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(countries));//adding non-primitive array
+
+        list.removeIf(p-> p.length() >=10);//p represents each element
+
+        //converting arraylist to array
+        countries = list.toArray(new String[0]);//0 is replaced size of array list. We can put any number instead of 0
+
+        System.out.println(Arrays.toString(countries));
 
 
 

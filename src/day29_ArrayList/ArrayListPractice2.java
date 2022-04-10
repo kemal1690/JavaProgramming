@@ -23,7 +23,7 @@ public class ArrayListPractice2 {
 
        list.removeIf( p -> p.charAt(0) == 'M' );
 
-        names = list.toArray(new String[0]);
+       names = list.toArray(new String[0]);
 
         System.out.println(Arrays.toString(names));
 
