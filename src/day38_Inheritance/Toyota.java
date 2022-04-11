@@ -1,5 +1,7 @@
 package day38_Inheritance;
 
+import java.lang.Object;
+
 public class Toyota extends Car {
 
 
@@ -13,7 +15,7 @@ public class Toyota extends Car {
     }
 
 
-    public void start(){
+    public void start(){//method overriding
         System.out.println("Twist the key to ignition to start "+brand+" "+model);
     }
 
