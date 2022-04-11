@@ -19,7 +19,9 @@ public class Car {
 
 
 
-    public void start(){
+    public void start(){//static cannot accept instances thats why we cannot use static here
+
+        // brand, model.... they are instance varibles we cannot call them through static
 
         System.out.println(brand + " " + model + " is starting");
 
