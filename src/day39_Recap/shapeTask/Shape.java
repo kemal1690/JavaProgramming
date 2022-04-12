@@ -10,7 +10,7 @@ public class Shape {
 
     public void setName(String name) {
 
-        if (name == null) {
+        if (name == null) {//"", and null are not the same, "" references an object
             System.err.println("Name can not be null");
             System.exit(1); // 1: some thing went wrong
 
@@ -42,6 +42,17 @@ public class Shape {
                 ", area='" + area() + '\'' +
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
+
+
+        /*
+
+        public String toString(int a){ this is an overloaded method
+        return.super.toString();
+
+        }
+
+
+         */
     }
 }
 /*

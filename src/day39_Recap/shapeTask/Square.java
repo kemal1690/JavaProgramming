@@ -21,7 +21,8 @@ public class Square extends Shape {
 
     public Square(double side) {
         super("Square");
-        setSide(side);
+        setSide(side);//setter can also check the requirement, if the user input negative number
+        //thanks to setter it checks the requirement that is written setSide method
     }
 
     public double area(){
