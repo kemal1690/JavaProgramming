@@ -19,6 +19,7 @@ private char gender;
     }
 
     public void setAge(int age) {
+
         this.age = age;
     }
 
@@ -44,7 +45,8 @@ private char gender;
 
     public void eat(){
 
-        System.out.println(name + " is eating");
+        System.out.println(name + " is eating");//name is private and it is visible within the class
+        //outside the class we call getName() or setName()
     }
 
     public void drink(){

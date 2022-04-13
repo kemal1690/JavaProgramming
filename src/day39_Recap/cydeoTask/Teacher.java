@@ -11,6 +11,8 @@ public class Teacher extends Employee {
 
         System.out.println(getName() + " " + getJobTitle() + " is teaching");
     }
+
+
 }
 /*
 5. Create a sub class of Employee named Teacher

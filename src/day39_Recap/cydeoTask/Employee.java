@@ -26,14 +26,25 @@ public class Employee extends Person{
     }
 
     public void setJobTitle(String jobTitle) {
+
+        if(jobTitle.isEmpty()||jobTitle.isBlank()){
+            System.out.println("Job title should not be empty");
+            System.exit(1);
+        }
         this.jobTitle = jobTitle;
     }
 
     public double getSalary() {
+
+
         return salary;
     }
 
     public void setSalary(double salary) {
+        if(salary<=0){
+            System.out.println("Invalid salary");
+            System.exit(1);
+        }
         this.salary = salary;
     }
 
