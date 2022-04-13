@@ -1,0 +1,56 @@
+package day40_FinalKeyWord;
+
+public class FinalVariable {
+
+    final String birthDay;
+
+    final static String name;
+
+    static{
+
+        name = "Batch 25";
+
+    }
+
+    public FinalVariable(String birthDay) {
+        this.birthDay = birthDay;
+    }
+
+    public static void main(String[] args) {
+
+    final double pi = 3.14; //local variable
+
+      //   pi = 4.14; final variables can not be reassigned
+       //  pi = 5.4;
+
+    final String name;//local variable
+
+    name = "Java";
+
+   // name = "Wooden Spoon";
+
+        System.out.println(name);
+
+        System.out.println("----------------------------------------");
+
+        FinalVariable obj = new FinalVariable("May/1");
+
+       // obj.birthDay = "June/1"; //final variables can not be reassign
+
+        System.out.println(obj.birthDay);
+
+        System.out.println("----------------------------------------");
+
+        System.out.println(name);//Java
+
+        //  FinalVariable.name = "Python";
+
+        System.out.println(FinalVariable.name);//Batch 25
+
+
+
+
+
+
+    }
+}
