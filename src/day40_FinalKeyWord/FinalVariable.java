@@ -45,7 +45,7 @@ public class FinalVariable {
 
         //  FinalVariable.name = "Python";
 
-        System.out.println(FinalVariable.name);//Batch 25
+        System.out.println(FinalVariable.name);//Batch 25-this is static local variable we can reassign it
 
 
 

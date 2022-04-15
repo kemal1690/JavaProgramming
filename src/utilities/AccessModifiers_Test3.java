@@ -8,7 +8,7 @@ public class AccessModifiers_Test3 {
 
        // System.out.println(ProtectedAccessModifier.name1);//default A.M is not visible outside the package
 
-        //System.out.println(ProtectedAccessModifier.name2);//protected A.M is not always visible outside the package excep subclass
+        //System.out.println(ProtectedAccessModifier.name2);//protected A.M is not always visible outside the package except subclass
 
 
 
