@@ -9,11 +9,11 @@ Package name: day40_FinalKeyword
 
 
 Encapsulation: data hiding
-			   give private access modifier to fileds
+			   give private access modifier to fields
 
-			   generate public getter/setters to read/write the private fileds
+			   generate public getter/setters to read/write the private fields
 
-	using thge data:
+	using the data:
 		reading the data
 		writing the data
 
@@ -29,7 +29,7 @@ Inheritance: Is A relation.
 
 
 
-protected access modifier: Alayws visible within the same package
+protected access modifier: Always visible within the same package
 						   Visible outside the package in subclass ONLY
 
 
