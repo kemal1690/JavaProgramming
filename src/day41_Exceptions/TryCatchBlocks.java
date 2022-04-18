@@ -15,7 +15,7 @@ public class TryCatchBlocks {
             System.out.println("Try Block");
 
         }catch(ArithmeticException e){//e stands for the object that occured in try block, e can be any name
-            //during the runtime catch block cna handle it
+            //during the runtime catch block can handle it
 
             System.out.println("Catch Block");
             System.out.println("ArithmeticException was occured");
