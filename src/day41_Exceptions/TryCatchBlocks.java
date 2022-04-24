@@ -10,9 +10,9 @@ public class TryCatchBlocks {
         System.out.println("Test1 started");
 
         try {//during the compile time try block can handle
-            System.out.println(9 / 0);
+            System.out.println(9 / 0);//After this statement it goes to the catch block to handle the exception
 
-            System.out.println("Try Block");
+            System.out.println("Try Block");//This is skipped by the compiler
 
         }catch(ArithmeticException e){//e stands for the object that occured in try block, e can be any name
             //during the runtime catch block can handle it
