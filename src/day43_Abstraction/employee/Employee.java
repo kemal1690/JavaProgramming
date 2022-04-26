@@ -2,7 +2,7 @@ package day43_Abstraction.employee;
 
 public abstract class Employee extends Person{//Employee is a generic name
     //in the abstract child class it is not mandatory to override abstract method of the parent classs
-    //Because abstract class can have abstaract method too
+    //Because abstract class can have abstract method too
 
     private final int id;//We cann not create setter for final varibales
     private String jobTitle;
