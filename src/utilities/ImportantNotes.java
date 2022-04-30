@@ -19,7 +19,7 @@ public class ImportantNotes {
 
         for (int i = 0; i <num2 ; i++) {
             result12 += num1;
-        }
+                }
         System.out.println("Multiplication =" + result12);
         scan.close();
 
@@ -52,7 +52,8 @@ public class ImportantNotes {
 
         while (a >= b) {
             a -= b;
-            count++;
+            count++; //denominator : bölen
+                    // nominator: bölünen
         }
 
 
@@ -104,7 +105,7 @@ public class ImportantNotes {
         int [] nums1 = {5 , 10 , 4, 1000, 35};
         int [] numsTwo = {4, 5 , 10, 35, 1000};
         int [] numsThree = nums1; // creating a new refernce for the same the object
-        nums[0]=5000;
+        nums1[0]=5000;
         System.out.println(Arrays.toString(numsThree));//[5000, 5, 10, 35, 1000]
         System.out.println("---------------------------------------------------");
 
