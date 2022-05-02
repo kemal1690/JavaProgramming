@@ -84,7 +84,10 @@ private final String color;
     public final void drink(){//We cant make this static because if we make this static we cannot use different animal names
 
         System.out.println(name + " is drinking water");//if we make the method static name gives compile error.
+
                                                         //Because name is an instance variable
+
+
     }
 
 
