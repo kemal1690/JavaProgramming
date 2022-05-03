@@ -37,7 +37,7 @@ public class Rectangle extends Shape{
 
         public double area(){
 
-        return 2*width * length;
+        return width * length;
         }
 
         public double perimeter(){
