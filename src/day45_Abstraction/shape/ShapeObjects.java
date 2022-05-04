@@ -23,6 +23,7 @@ public class ShapeObjects {
             circle.setRadius(4);
             cube.setSide(4);
             triangle.setRadius(5);
+            //cube.drink();
 
         System.out.println("triangle radius: " + triangle.getRadius());
         System.out.println("cube side = " + cube.getSide());

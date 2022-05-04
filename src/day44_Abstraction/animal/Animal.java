@@ -17,7 +17,7 @@ private String name;
 private final String breed;//when we create an object we dont wanna change the breed thats why we make it final
 private final char gender;//when we set the gender we dont wanna change it thats why we make it final
 private int age;
-private char size;
+private String size;
 private final String color;
 
     public final static boolean canBreathe;//we can change the static but we cannot change the final variable
@@ -26,7 +26,7 @@ private final String color;
         canBreathe = true;
     }
 
-    public Animal(String name, String breed, char gender, int age, char size, String color) {
+    public Animal(String name, String breed, char gender, int age, String size, String color) {
        setName(name);//We are calling setter
        this.breed = breed;
        if( !(gender=='M' ||gender == 'F') ){
@@ -67,11 +67,11 @@ private final String color;
         this.age = age;
     }
 
-    public char getSize() {
+    public String getSize() {
         return size;
     }
 
-    public void setSize(char size) {
+    public void setSize(String size) {
         this.size = size;
     }
 

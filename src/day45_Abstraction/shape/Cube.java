@@ -38,6 +38,14 @@ public class Cube extends Shape implements Volume{
         return side * side *side;
     }
 
+    /*
+    public void drink(){
+        System.out.println("Dont drink");
+    }
+    We can override this,we can call the method in ShapeObject Class like cube.drink();
+    Or we dont need to override it we can call in ShapeObject Class like cube.drink();
+     */
+
 
 
     @Override
