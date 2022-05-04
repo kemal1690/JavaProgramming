@@ -1,8 +1,8 @@
-package day45_Abstraction.shape.browserTask;
+package day45_Abstraction.browserTask;
 
-public class SafariDriver extends RemoteWebDriver{
+public class EdgeDriver extends RemoteWebDriver{
 
-    public SafariDriver(String browserName) {
+    public EdgeDriver(String browserName) {
         super(browserName);
     }
 

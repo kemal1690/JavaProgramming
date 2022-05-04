@@ -1,4 +1,4 @@
-package day45_Abstraction.shape.browserTask;
+package day45_Abstraction.browserTask;
 
 public class OperaDriver extends RemoteWebDriver{
 

@@ -1,8 +1,8 @@
-package day45_Abstraction.shape.browserTask;
+package day45_Abstraction.browserTask;
 
-public class EdgeDriver extends RemoteWebDriver{
+public class FireFoxDriver extends RemoteWebDriver{
 
-    public EdgeDriver(String browserName) {
+    public FireFoxDriver(String browserName) {
         super(browserName);
     }
 

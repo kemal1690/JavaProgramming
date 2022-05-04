@@ -1,8 +1,8 @@
-package day45_Abstraction.shape.browserTask;
+package day45_Abstraction.browserTask;
 
-public class ChromeDriver extends RemoteWebDriver{
+public class SafariDriver extends RemoteWebDriver{
 
-    public ChromeDriver(String browserName) {
+    public SafariDriver(String browserName) {
         super(browserName);
     }
 
@@ -50,6 +50,4 @@ public class ChromeDriver extends RemoteWebDriver{
     public void executeScript(String script) {
         super.executeScript(script);
     }
-
-
 }
