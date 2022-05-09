@@ -4,14 +4,16 @@ public class ParkingLot {
 
     public static void main(String[] args) {
 
-        Toyota toyota = new Toyota("Camry", 2020, 25000, "white",80000);
+        Toyota toyota = new Toyota("Camry", 2020, 20000, "Gray", 123456);
 
 
-        Tesla tesla = new Tesla("Tesla", "Model S", 2019, 50000, "black",30000);
+        Tesla tesla = new Tesla("Model S", 2022, 94990, "Red", 0);
 
-        BMW bmw = new BMW("X6", 2019, 45000, "white", 100000);
+        BMW bmw = new BMW("X5", 2020, 67350, "black", 12000);
 
 
+        System.out.println("toyota = " + toyota);
+        System.out.println("tesla = " + tesla);
 
         toyota.start();
         tesla.start();
