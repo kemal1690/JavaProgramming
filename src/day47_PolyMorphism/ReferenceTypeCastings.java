@@ -36,7 +36,7 @@ public class ReferenceTypeCastings {
                                     //type more than once
         //dog.bark();
         //animal.bark();
-         ((Dog) animal).bark();//If we dont need more than one variable we use that
+        // ((Dog) animal).bark();//If we dont need more than one variable we use that
 
 
 
@@ -54,8 +54,8 @@ public class ReferenceTypeCastings {
 
         Animal animal2 = new Cat("Jim", "Scotish", 'M', 3, "Small", "White");
 
-        //Cat cat = (Cat) animal2; if we wanna use cat variable more than once we use this
-        // cat.meow();
+        //Cat cat = (Cat) animal2; //if we wanna use cat variable more than once we use this
+        //cat.meow();
 
         ( (Cat) animal2 ).meow();//We use that just once
 
