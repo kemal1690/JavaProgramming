@@ -6,7 +6,7 @@ public class ListIntro {
 
     public static void main(String[] args) {
 
-        List<Integer> list1 = new ArrayList<>();//Wrapper class Integer object//Accesing the elements ArraList is faster
+        List<Integer> list1 = new ArrayList<>();//Wrapper class Integer object//Accessing the elements ArrayList is faster
         //List is an interface we cannot create an object
         //List can reference to the ArrayList, LinkedList, Vector and Stack classes
 

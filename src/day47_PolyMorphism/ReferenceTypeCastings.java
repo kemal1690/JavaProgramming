@@ -35,8 +35,8 @@ public class ReferenceTypeCastings {
          //Dog dog = (Dog)animal; // downcasting-We can use that for the different variables and different reference
                                     //type more than once
         //dog.bark();
-        //animal.bark();
-        // ((Dog) animal).bark();//If we dont need more than one variable we use that
+        //animal.bark(); compile error
+        //((Dog) animal).bark();//If we dont need more than one variable we use that
 
 
 
@@ -84,7 +84,11 @@ public class ReferenceTypeCastings {
         System.out.println("--------------------------------------------");
 
         Shape s1 = new Circle(3);
-        s1.area();
+        s1.area();//gives the overridden method from object class
+        s1.perimeter();//gives the overridden method from object class
+        //If method is not overridden, it will call parent/super class version
+        System.out.println("s1.getName() = " + s1.getName());//Circle
+
         System.out.println(s1.perimeter());//gives the Circle perimeter.
         //Object type decides which implementation of the method will be executed
 
