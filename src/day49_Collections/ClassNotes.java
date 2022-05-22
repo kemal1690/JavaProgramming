@@ -1,0 +1,30 @@
+package day49_Collections;
+
+public class ClassNotes {
+
+    /*
+    Java Day49
+Topic: Collections Continue
+				Set
+				Queue
+
+Package name: day49_Collections
+
+
+Collection (I):
+
+		List (I): Has Index, Allows Duplicates
+
+
+		Set (I): Does not have index, does not allow duplicates
+
+				HashSet (C): order is random
+
+				LinkedHashSet (C): keeps the insertion order
+
+				TreeSet (C): keeps sorted order, does not accept null
+
+
+		Queue(I)
+     */
+}
