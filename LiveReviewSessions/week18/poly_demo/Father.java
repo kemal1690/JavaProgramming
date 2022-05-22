@@ -1,6 +1,6 @@
 package week18.poly_demo;
 
-public class Father extends Parent implements Worker{
+public class Father extends Parent implements Worker {
 
 
     @Override
@@ -20,7 +20,7 @@ public class Father extends Parent implements Worker{
 
     @Override
     public void work(String job) {
-        System.out.println("Working as "+job);
+        System.out.println("Working as " + job);
     }
 
     @Override
