@@ -4,6 +4,7 @@ public class Test2 {
     public static void main(String[] args) {
 
         MySecondFunctionalInterface<String> printEach = s -> {//s refers to String it can be any letter
+           //s calls this abstract ==> method void test(T data);
 
             for (String each : s.split("")) {
 
